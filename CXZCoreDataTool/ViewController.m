@@ -12,7 +12,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic, strong) CXZCoreDataTool *dbTool;
+@property (nonatomic, strong) CXZCoreDataTool *dbTool;  //!< coreData工具  是个单例
 
 @end
 
