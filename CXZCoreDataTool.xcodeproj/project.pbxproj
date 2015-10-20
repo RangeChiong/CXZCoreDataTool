@@ -14,6 +14,11 @@
 		02A7F9101BD5F34C00DE84D0 /* CXZCoreDataTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02A7F90E1BD5F34C00DE84D0 /* CXZCoreDataTool.xcdatamodeld */; };
 		02A7F9121BD5F34C00DE84D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A7F9111BD5F34C00DE84D0 /* Assets.xcassets */; };
 		02A7F9151BD5F34C00DE84D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A7F9131BD5F34C00DE84D0 /* LaunchScreen.storyboard */; };
+		02A7F9231BD5F42600DE84D0 /* CXZCoreDataTool+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A7F91E1BD5F42600DE84D0 /* CXZCoreDataTool+Manager.m */; settings = {ASSET_TAGS = (); }; };
+		02A7F9241BD5F42600DE84D0 /* CXZCoreDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A7F9201BD5F42600DE84D0 /* CXZCoreDataTool.m */; settings = {ASSET_TAGS = (); }; };
+		02A7F9251BD5F42600DE84D0 /* CXZCoreDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A7F9221BD5F42600DE84D0 /* CXZCoreDateUtils.m */; settings = {ASSET_TAGS = (); }; };
+		02A7F92A1BD6036000DE84D0 /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A7F9271BD6036000DE84D0 /* Person+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		02A7F92B1BD6036000DE84D0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A7F9291BD6036000DE84D0 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,16 @@
 		02A7F9111BD5F34C00DE84D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02A7F9141BD5F34C00DE84D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02A7F9161BD5F34C00DE84D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02A7F91D1BD5F42600DE84D0 /* CXZCoreDataTool+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CXZCoreDataTool+Manager.h"; sourceTree = "<group>"; };
+		02A7F91E1BD5F42600DE84D0 /* CXZCoreDataTool+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CXZCoreDataTool+Manager.m"; sourceTree = "<group>"; };
+		02A7F91F1BD5F42600DE84D0 /* CXZCoreDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXZCoreDataTool.h; sourceTree = "<group>"; };
+		02A7F9201BD5F42600DE84D0 /* CXZCoreDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXZCoreDataTool.m; sourceTree = "<group>"; };
+		02A7F9211BD5F42600DE84D0 /* CXZCoreDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXZCoreDateUtils.h; sourceTree = "<group>"; };
+		02A7F9221BD5F42600DE84D0 /* CXZCoreDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXZCoreDateUtils.m; sourceTree = "<group>"; };
+		02A7F9261BD6036000DE84D0 /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CoreDataProperties.h"; path = "../Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		02A7F9271BD6036000DE84D0 /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CoreDataProperties.m"; path = "../Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		02A7F9281BD6036000DE84D0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		02A7F9291BD6036000DE84D0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +59,7 @@
 		02A7F8F61BD5F34C00DE84D0 = {
 			isa = PBXGroup;
 			children = (
+				02A7F91C1BD5F42600DE84D0 /* DataBaseTools */,
 				02A7F9011BD5F34C00DE84D0 /* CXZCoreDataTool */,
 				02A7F9001BD5F34C00DE84D0 /* Products */,
 			);
@@ -69,6 +85,10 @@
 				02A7F9131BD5F34C00DE84D0 /* LaunchScreen.storyboard */,
 				02A7F9161BD5F34C00DE84D0 /* Info.plist */,
 				02A7F90E1BD5F34C00DE84D0 /* CXZCoreDataTool.xcdatamodeld */,
+				02A7F9261BD6036000DE84D0 /* Person+CoreDataProperties.h */,
+				02A7F9271BD6036000DE84D0 /* Person+CoreDataProperties.m */,
+				02A7F9281BD6036000DE84D0 /* Person.h */,
+				02A7F9291BD6036000DE84D0 /* Person.m */,
 				02A7F9021BD5F34C00DE84D0 /* Supporting Files */,
 			);
 			path = CXZCoreDataTool;
@@ -80,6 +100,19 @@
 				02A7F9031BD5F34C00DE84D0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02A7F91C1BD5F42600DE84D0 /* DataBaseTools */ = {
+			isa = PBXGroup;
+			children = (
+				02A7F91D1BD5F42600DE84D0 /* CXZCoreDataTool+Manager.h */,
+				02A7F91E1BD5F42600DE84D0 /* CXZCoreDataTool+Manager.m */,
+				02A7F91F1BD5F42600DE84D0 /* CXZCoreDataTool.h */,
+				02A7F9201BD5F42600DE84D0 /* CXZCoreDataTool.m */,
+				02A7F9211BD5F42600DE84D0 /* CXZCoreDateUtils.h */,
+				02A7F9221BD5F42600DE84D0 /* CXZCoreDateUtils.m */,
+			);
+			path = DataBaseTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A7F92A1BD6036000DE84D0 /* Person+CoreDataProperties.m in Sources */,
 				02A7F90A1BD5F34C00DE84D0 /* ViewController.m in Sources */,
+				02A7F9231BD5F42600DE84D0 /* CXZCoreDataTool+Manager.m in Sources */,
 				02A7F9071BD5F34C00DE84D0 /* AppDelegate.m in Sources */,
+				02A7F9251BD5F42600DE84D0 /* CXZCoreDateUtils.m in Sources */,
 				02A7F9101BD5F34C00DE84D0 /* CXZCoreDataTool.xcdatamodeld in Sources */,
+				02A7F92B1BD6036000DE84D0 /* Person.m in Sources */,
+				02A7F9241BD5F42600DE84D0 /* CXZCoreDataTool.m in Sources */,
 				02A7F9041BD5F34C00DE84D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
